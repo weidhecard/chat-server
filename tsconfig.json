@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es6",                       // Specify ECMAScript target version
+        "module": "commonjs",                  // Specify module system (e.g., CommonJS, ESNext)
+        "outDir": "./build",                   // Specify output directory for compiled files
+        "strict": true,                        // Enable strict typing
+        "noImplicitAny": true,                 // Enable all strict type-checking options
+        "esModuleInterop": true,               // Allow default imports from modules with no default export
+        "skipLibCheck": true,                  // Skip type checking of declaration files
+        "forceConsistentCasingInFileNames": true,
+        "allowJs": true,        
+        "declaration": false,
+        "emitDeclarationOnly": false,
+        
+    },
+    "include" : ["src/**/*.ts", "src/**/*.cjs", "src/**/*/*.ts", "ecosystem.config.cjs", "config/module.ts", ],
+    "exclude": [
+        "node_modules"   
+    ]    
+}

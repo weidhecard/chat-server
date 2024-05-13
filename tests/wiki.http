@@ -1,0 +1,16 @@
+@base=
+@token=
+
+### Get All
+GET {{base}}/wiki?key=car HTTP/1.1
+Authorization: Bearer {{token}}
+
+### Delete All
+DELETE {{base}}/wiki HTTP/1.1
+Authorization: Bearer {{token}}
+
+
+
+
+
+

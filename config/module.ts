@@ -1,0 +1,16 @@
+declare module "dotenv";
+declare module "express-session";
+declare module "cors";
+declare module "helmet";
+declare module "compression";
+declare module "morgan";
+declare module "byte-size";
+declare module "gravatar";
+declare module "slugify";
+declare module "node-fetch";
+declare module "querystring";
+declare module "lodash";
+declare module "bcryptjs";
+declare module "http-errors";
+declare module "jsonwebtoken";
+declare module "bcrypt";
